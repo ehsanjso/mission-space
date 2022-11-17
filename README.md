@@ -19,3 +19,8 @@ I think space needs solutions relevant to space. Therefore, it seemed natural to
 Considering that we have this 3D view gives us a vast opportunity to integrate more sensor data and visualize the surroundings, on top of just visualizing the spaceship position.
 
 If I want to wrap up the implemented application in a sentence it would be tesla visualization for mission control.
+
+
+## Implementation
+
+The application is made with react and react three fiber. In the App.js we generate the position values for spaceship landing. This part can be substituted with the values comming from the HSS program. The react three fiber renders the spaceship and the environment. As soon as the values get to 40 cm the system shows that the sapceship is landed.
